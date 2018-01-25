@@ -1,16 +1,4 @@
 <application>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <phpcs_by_interpreter interpreter_id="b4ae12cd-b204-4973-931b-94cef3c833a4" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/opt/project/vendor/bin/phpcs" />
-    </phpcs_settings>
-  </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="docker://php7.1:latest/php" id="b4ae12cd-b204-4973-931b-94cef3c833a4" name="Docker PHP 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="php7.1:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Docker PHP 7.1">
@@ -304,10 +292,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="b4ae12cd-b204-4973-931b-94cef3c833a4" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/phpunit.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-    </phpunit_settings>
   </component>
 </application>
