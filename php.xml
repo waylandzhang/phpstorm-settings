@@ -6,14 +6,14 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://base-php:latest/php" id="365119f1-93f6-458d-a200-c31434fa76b2" name="base-php:latest" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://base-php:latest/php" id="365119f1-93f6-458d-a200-c31434fa76b2" name="Docker PHP Base" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="base-php:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="base-php:latest">
+      <interpreter name="Docker PHP Base">
         <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.13">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-bcmath.ini, /usr/local/etc/php/conf.d/docker-php-ext-intl.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
@@ -229,7 +229,7 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="192.168.100.22" />
+            <configuration_option name="xdebug.remote_host" value="192.168.200.77" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
