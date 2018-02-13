@@ -1,7 +1,7 @@
 <application>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <phpcs_by_interpreter interpreter_id="365119f1-93f6-458d-a200-c31434fa76b2" tool_path="/opt/project/vendor/bin/phpcs" />
+      <phpcs_by_interpreter interpreter_id="365119f1-93f6-458d-a200-c31434fa76b2" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/opt/project/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
