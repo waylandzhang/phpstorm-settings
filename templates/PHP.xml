@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="die" value="die(__METHOD__);" description="'die' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
