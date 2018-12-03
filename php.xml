@@ -1,5 +1,9 @@
 <application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
   <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
     <phpcs_settings>
       <phpcs_by_interpreter interpreter_id="365119f1-93f6-458d-a200-c31434fa76b2" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/opt/project/vendor/bin/phpcs" />
       <phpcs_by_interpreter interpreter_id="6624db2a-9a29-4ace-b2fd-ec051607c194" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/opt/project/vendor/bin/phpcs" />
